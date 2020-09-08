@@ -1,7 +1,7 @@
-##############################################################################
-# For copyright and license notices, see __manifest__.py file in module root
-# directory
-##############################################################################
+# coding: utf-8
+# © 2015 ADHOC SA (http://www.adhoc.com.ar)
+# © 2020 Opener B.V. (https://opener.amsterdam)
+# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 from odoo import api, fields, models
 
 
