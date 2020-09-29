@@ -14,7 +14,7 @@
                     <field name="is_conditional" attrs="{'readonly':[('survey_id', '=', False)]}"/>
                     <field name="triggering_question_id"
                            options="{'no_create': True}"
-                           domain="[('survey_id', '=', survey_id), ('page_id', '!=', page_id), ('type', 'in', ('simple_choice', 'multiple_choice'))]"
+                           domain="[('survey_id', '=', survey_id), ('type', 'in', ('simple_choice', 'multiple_choice'))]"
                            attrs="{'required': [('is_conditional', '=', True)], 'invisible':[('is_conditional','!=',True)]}"/>
                     <field name="triggering_answer_id"
                            options="{'no_create': True}"
